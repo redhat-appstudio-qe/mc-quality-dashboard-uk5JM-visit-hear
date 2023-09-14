@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-hemc
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-zodf-tenant/mc-quality-dashboard/backend-quality-dashboard-hemc@sha256:27be840093788d3940e2da97e453b9396420fcc77823d799c9c9befb1dea4023
         imagePullPolicy: Always
         name: container-image
         ports:
