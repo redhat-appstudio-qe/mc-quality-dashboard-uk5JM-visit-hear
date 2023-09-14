@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-hemc
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-zodf-tenant/mc-quality-dashboard/backend-quality-dashboard-hemc@sha256:27be840093788d3940e2da97e453b9396420fcc77823d799c9c9befb1dea4023
+        name: container-image
+        resources: {}
+status: {}
